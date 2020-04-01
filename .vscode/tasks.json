@@ -1,12 +1,15 @@
 {
+  "sourceFileMap": {
+    "/": "\\"
+  },
   "version": "2.0.0",
   "tasks": [{
-    "label": "test",
+    "label": "createexe",
     "type": "shell",
     "command": "C:/MinGW/bin/g++.exe",
     "args": [
       "-g",
-      "$\"${file}\"",
+      "\"${file}\"",
       "-o",
       "${fileDirname}\\${fileBasenameNoExtension}.exe"
     ],

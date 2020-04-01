@@ -21,7 +21,7 @@
         "externalConsole": true,
         "MIMode": "gdb",
         "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
-        "preLaunchTask": "test",
+        "preLaunchTask": "createexe",
         "setupCommands": [{
             "description": "啟用 gdb 的美化顯示",
             "text": "-enable-pretty-printing",
