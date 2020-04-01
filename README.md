@@ -3,10 +3,15 @@
 - https://blog.csdn.net/itas109/article/details/99699807
 # 相關設定
 "stopAtEntry": true,
+
 "externalConsole": true,
+
 setting.json  "terminal.integrated.shell.windows": "C:\\User_C\\Git\\bin\\bash.exe" 這行要註解掉
+
 會出現路徑問題是因為bash的路徑跟windows的不一樣(file not found)
+
 發現解決辦法思路:https://ask.csdn.net/questions/774686
+
 有人提到 "如果你使用了bash集成终端，bash使用的文件分隔符是/，不兼容，就会出现此类错误"
 於是我把bash關掉了
 > 修復在git bash 上 $dir path 錯誤
